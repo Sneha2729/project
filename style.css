@@ -1,0 +1,750 @@
+
+*{box-sizing:border-box;margin:0;padding:0;}
+.connect{
+    height:30px;
+    width:100%;
+    background:white;
+    box-shadow:0 0 20px gray;
+    display:flex;
+    
+}
+.connect span{
+    font-size:12px; 
+}
+
+.connect .x{
+    margin-left:20px; 
+}
+.connect .info{
+    margin-left:500px;
+    font-size:15px;
+    text-align:center;
+    line-height:40px;
+   
+}
+.connect .info-1{
+    margin-left:20px;
+    font-size:15px;
+    text-align:center;
+    line-height:40px;
+   
+}
+.connect .info:hover{
+    color:coral;
+}
+.connect .info-1:hover{
+    color:coral;
+}
+.fa-facebook{
+    margin-left:20px;
+   
+}
+.fa-twitter-square{
+    margin-left:20px;
+
+}.fa-instagram{
+    margin-left:20px;
+}
+.fa-pinterest-p{
+    margin-left:20px;
+}
+
+.header{
+    height:50px;
+    width:100%;
+  /* background:gray;*/
+    display:flex;
+    margin-top:50px;
+  
+}
+.header .navigation{
+    
+    height:80px;
+    width:80%;
+    text-align:center;
+    padding-right:30px;
+    padding-top:30px;
+}
+.header .navigation ul li{
+    list-style:none;
+    display:inline;
+    /*float:left;*/
+    margin-right:10px;
+}
+.header .navigation ul li a{
+    text-decoration:none;
+    color:black;
+    font-size:20px;
+    font-family:sans-serif;
+    transition:1s;
+    float:left;
+    margin-left:90px;
+
+}
+.header .navigation ul li a:hover{
+    
+    text-decoration:underline;
+    border:none;
+    color:coral;
+   
+}
+
+
+.fa-neuter{
+    margin-left:20px;
+}
+.fa-heart-o {
+    margin-left: 20px;
+}
+.fa-user{
+    margin-left:20px;
+}
+.fa-unlock-alt{
+    margin-left: 20px;
+}
+ 
+     
+ 
+.main{
+    height:540px;
+    width:45%;
+    background:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQW6pSzXchhLnRDiQREx3quEyAOQxM7sLBffA&usqp=CAU);
+    background-size:100% 100%;
+    margin-top:30px;
+    position: relative;
+   
+  
+  }
+  .main h2{
+    text-align:center;
+    line-height:100PX;
+    font-size:60px;
+    
+ }
+  .main span{
+     text-align:center;
+     line-height:100PX;
+     font-size:30px;
+     color:red;
+  }
+  
+  
+  .main p{
+     text-align:center;
+     line-height:50PX;
+     font-size:25px;
+    
+  }
+  .main h4{
+     text-align:center;
+     line-height:50PX;
+     font-size:15px;
+  }
+   
+  .img-1{
+    height:100px;
+    width:100%;
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    grid-template-rows:100px;
+    /*background:cornsilk;*/
+    margin-top:40px;
+    
+ } 
+ .img-1 .y1{
+    /*border:2px solid;*/
+     margin-top:20px;
+}
+
+
+  .now{
+    text-align:center;
+    line-height:50PX;
+    font-size:25px;
+    font-weight:bold;
+   
+    
+  
+ }
+ .img{
+  
+    position:absolute;
+    top:2px;
+    left:530px;
+ }
+ .category{
+     height:300px;
+     width:100%;
+    /* background:gray;*/
+     padding:35px;
+    
+}
+ .category h5{
+    text-align:center;
+    font-size:30px;
+   
+ }
+ .category .category-1{
+    height:200px;
+    width:100%;
+    /* background:coral;*/
+    display:flex;
+    margin:20px;
+ }
+ .category-1 .cate{
+    height:180px;
+     width:400px;
+     margin-right:120px;
+     transition:0.5s;
+     background-color:white;
+     box-shadow:0 0 20px gray;
+}
+.category .category-1 .cate:hover{
+    transform:scale(1.2);
+}
+.category-1 .a{
+   
+    background:url(https://media.istockphoto.com/vectors/female-face-vector-icon-logo-template-vector-id1203024005?k=20&m=1203024005&s=612x612&w=0&h=OdT_Zc_oBlAd7hpVWLpEV8tS6j0P91sv87v9OoJ39Ic=);
+    background-size:cover;
+  
+}
+.category-1 .b{
+    background:url(https://www.zarla.com/images/zarla-beauty-logos-3024x4032-2021021.jpeg?crop=21:16,smart&width=210&dpr=2);
+    background-size:cover;
+    
+}
+.category-1 .c{
+    background:url(https://i.pinimg.com/474x/ab/8b/a9/ab8ba97d7ffab0414d2d1d6e92d26976.jpg);
+    background-size:cover;
+}
+.category-1 h6{
+    font-size:20px;
+}
+
+.stander{
+    
+    height:300px;
+    width:100%;
+   /* background:lightblue;*/
+    padding:35px;
+}
+.stander .stander-1{
+    height:200px;
+    width:100%;
+   /* background:coral;*/
+    display:flex;
+    margin:20px
+ }
+ .stander-1 .std{
+    height:180px;
+     width:400px;
+     margin-right:120px;
+     transition:0.5s;
+     background-color:white;
+     box-shadow:0 0 20px gray;
+     
+}
+.stander .stander-1 .std:hover{
+    transform:scale(1.2);
+}
+.stander-1 .a{
+    background:url(https://www.designmantic.com/logo-images/4595.png?company=Company+Name&slogan=&verify=1);
+    background-size:cover;
+    
+}
+.stander-1 .b{
+    background:url(https://t3.ftcdn.net/jpg/03/64/90/98/360_F_364909822_wXMduhxyxcrwItnqiqmyfn0qpcfNmhjY.jpg);
+    background-size:cover;
+}
+.stander-1 .c{
+    background:url(https://www.logodesign.net/logo/fragrance-inside-the-perfume-bottle-with-rose-5348ld.png);
+    background-size:cover;
+}
+.stander-1 h6{
+    font-size:20px;
+}
+.product{
+    height:250px;
+    width:100%;
+    background:coral;
+}
+
+.product-1 .pro{
+    height:250px;
+    width:250px;
+    background:white;
+    box-shadow:0 0 20px gray;
+    margin-right:30px;
+    float: left;
+}
+.product .a{
+    background:url(https://i0.wp.com/demo4.drfuri.com/razzi12/wp-content/uploads/sites/32/2021/12/bt2301.png?fit=1000%2C1185&ssl=1);
+    background-size:cover;
+}
+.product .b{
+    background:url(https://i0.wp.com/demo4.drfuri.com/razzi12/wp-content/uploads/sites/32/2021/12/bt2401.png?fit=1000%2C1185&ssl=1);
+    background-size:cover;
+}
+.product .c{
+    background:url(https://i0.wp.com/demo4.drfuri.com/razzi12/wp-content/uploads/sites/32/2021/12/bt2601.png?fit=1000%2C1185&ssl=1);
+    background-size:cover;
+} 
+.product p{
+    font-size:25px;
+    color:white;
+    margin:50px;
+     
+}
+.product b{
+    font-size:15px;
+    color:white;
+    margin:30px;
+     
+}
+.product h2{
+    font-size:12px;
+    color:white;
+    margin:50px;
+    text-decoration:underline;
+     
+}
+.news{
+    height:250px;
+    width:100%;
+  /* background:greenyellow;*/
+    transition:0.8s;
+    margin-bottom:50px;
+}
+.news b{
+    color:black;
+    border:5px solid pink;
+    margin:5px;
+    
+}
+.news h2{
+    text-align:center;
+    font-size:30px;
+    margin-top:15px;
+}
+.news .news-1{
+    height:200px;
+    width:100%;
+    /* background:lightseagreen;*/
+    display:flex;
+    margin:20px;
+ }
+ .news-1 .new{
+    height: 200px;
+     width:420px;
+     margin-left:50px;
+    
+     background-color:white;
+     box-shadow:0 0 20px gray;
+}
+ .news .a{
+    background:url(https://i0.wp.com/demo4.drfuri.com/razzi12/wp-content/uploads/sites/32/2020/12/bt1001.png?fit=1000%2C1185&ssl=1);
+    background-size:cover; 
+}
+.news .b{
+    background:url(https://i0.wp.com/demo4.drfuri.com/razzi12/wp-content/uploads/sites/32/2020/12/bt2002.png?resize=570%2C684&ssl=1);
+    background-size:cover;    
+}
+.news .c{
+    background:url(https://i0.wp.com/demo4.drfuri.com/razzi12/wp-content/uploads/sites/32/2020/12/bt3002.png?resize=570%2C684&ssl=1);
+    background-size:cover; 
+}
+.news .d{
+    background:url(https://i0.wp.com/demo4.drfuri.com/razzi12/wp-content/uploads/sites/32/2020/12/bt5002.png?resize=570%2C684&ssl=1);
+    background-size:cover; 
+}
+.news .a:hover{
+    background:url(https://i0.wp.com/demo4.drfuri.com/razzi12/wp-content/uploads/sites/32/2020/12/bt1002.png?resize=570%2C684&ssl=1);
+    background-size:cover; 
+}
+.news .b:hover{
+    background:url(https://i0.wp.com/demo4.drfuri.com/razzi12/wp-content/uploads/sites/32/2020/12/bt2001.png?fit=1000%2C1185&ssl=1);
+    background-size:cover;    
+}
+.news .c:hover{
+    background:url(https://i0.wp.com/demo4.drfuri.com/razzi12/wp-content/uploads/sites/32/2020/12/bt3001.png?fit=1000%2C1185&ssl=1);
+    background-size:cover; 
+}
+.news .d:hover{
+    background:url(https://i0.wp.com/demo4.drfuri.com/razzi12/wp-content/uploads/sites/32/2020/12/bt5001.png?fit=1000%2C1185&ssl=1);
+    background-size:cover; 
+}
+.arrivals{
+    height:250px;
+    width:100%;
+   /* background:red;*/
+    transition:0.8s;
+}
+.arrivals b{
+    color:black;
+    border:5px solid pink;
+    margin:5px;
+}
+
+.arrivals .arrivals-1{
+    height:200px;
+    width:100%;
+    /* background:blue;*/
+    display:flex;
+    margin:20px;
+}
+.arrivals-1 .arriv{
+    height:200px;
+    width:420px;
+    background:white;
+    box-shadow:0 0 20px gray;
+    margin-left:50px;
+}
+
+
+.arrivals .a{
+    background:url(https://i0.wp.com/demo4.drfuri.com/razzi12/wp-content/uploads/sites/32/2020/12/bt6001.png?fit=1000%2C1185&ssl=1);
+    background-size:cover;
+}
+
+.arrivals .b{
+    background:url(https://i0.wp.com/demo4.drfuri.com/razzi12/wp-content/uploads/sites/32/2020/12/bt7001.png?fit=1000%2C1185&ssl=1);
+    background-size:cover;
+}
+.arrivals .c{
+    background:url(https://i0.wp.com/demo4.drfuri.com/razzi12/wp-content/uploads/sites/32/2020/12/bt8001.png?fit=1000%2C1185&ssl=1);
+    background-size:cover;
+}
+.arrivals .d{
+    background:url(https://i0.wp.com/demo4.drfuri.com/razzi12/wp-content/uploads/sites/32/2020/10/bt2101.png?fit=1000%2C1185&ssl=1);
+    background-size:cover;
+}
+.arrivals .a:hover{
+    background:url(https://i0.wp.com/demo4.drfuri.com/razzi12/wp-content/uploads/sites/32/2020/12/bt6002.png?fit=1000%2C1185&ssl=1);
+    background-size:cover;
+}
+
+.arrivals .b:hover{
+    background:url(https://i0.wp.com/demo4.drfuri.com/razzi12/wp-content/uploads/sites/32/2020/12/bt7002.png?fit=1000%2C1185&ssl=1);
+    background-size:cover;
+}
+.arrivals .c:hover{
+    background:url(https://i0.wp.com/demo4.drfuri.com/razzi12/wp-content/uploads/sites/32/2020/12/bt8002.png?resize=768%2C910&ssl=1);
+    background-size:cover;
+}
+.discover{
+    height:540px;
+    width:45%;
+    /*background:gray;*/
+    position: relative;
+}
+.discover .discover-1{
+    height:500px;
+    width:500px;
+    border:2px solid;
+    position:absolute;
+}
+.discover h4{
+    text-align:center;
+    margin-top:10px;
+    font-size:20px;
+    text-decoration:underline;
+}
+.discover-2{
+    height:200px;
+    width:500px;
+    background:white;
+    box-shadow:0 0 20px gray;
+    position:absolute;
+    top:300px;
+    left: 25px;
+}
+.discover-2 b{
+    font-size:30px;
+    font-family:sans-serif;
+     margin-left:40px;
+}
+.discover-2 h1{
+    font-size:30px;
+    font-family:sans-serif;
+   margin-left:40px;
+}
+.discover-2 h2{
+    font-size:20px;
+   margin-left:40px;
+}
+.discover .discover-1:hover{
+    transform:scale(0.9);
+}
+.dry{
+    height:540px;
+    width:45%;
+    /* background:pink;*/
+    position:absolute;
+    bottom:-2270px;
+    left:580px;
+  }
+  .dry .dry-1{
+    height:500px;
+    width:500px;
+    border:2px solid;
+    position:absolute;
+}
+.dry h4{
+    text-align:center;
+    margin-top:10px;
+    font-size:20px;
+    text-decoration:underline;
+}
+.dry .dry-1:hover{
+    transform:scale(0.9);
+    
+}
+.brand{
+    height:500px;
+    width:100%;
+    /*background:red;*/
+  
+}
+
+.brand h4{
+    font-size:30px;
+    text-align:center;
+}
+
+.brand .brand-1{
+    height:200px;
+    width:100%;
+    /*background:coral;*/
+    display:flex;
+    margin:20px;
+ }  
+.brand-1 .brands{
+    height:100px;
+    width:300px;
+    background:white;
+    box-shadow:0 0 20px gray;
+    margin-right:120px;
+ 
+}
+ .brand .brand-1 .brands:hover{
+    transform:scale(1.2);
+ }
+ .brand .a{
+    background:url(https://i0.wp.com/demo4.drfuri.com/razzi12/wp-content/uploads/sites/32/2021/12/Vector.png?fit=80%2C43&ssl=1);
+    background-size:cover;
+ }
+ .brand .b{
+    background:url(https://i0.wp.com/demo4.drfuri.com/razzi12/wp-content/uploads/sites/32/2021/12/Vector-1.png?fit=101%2C56&ssl=1);
+    background-size:cover;
+ }
+ .brand .c{
+    background:url(https://i0.wp.com/demo4.drfuri.com/razzi12/wp-content/uploads/sites/32/2021/12/Vector-2.png?fit=109%2C17&ssl=1);
+    background-size:100% 100%;
+ }
+ .brand .d{
+    background:url(https://i0.wp.com/demo4.drfuri.com/razzi12/wp-content/uploads/sites/32/2021/12/Vector-3.png?fit=124%2C12&ssl=1);
+    background-size:100% 100%;
+ }
+ .brand .e{
+    background:url(https://i0.wp.com/demo4.drfuri.com/razzi12/wp-content/uploads/sites/32/2021/12/Vector-4.png?fit=80%2C23&ssl=1);
+    background-size:100% 100%;
+ }
+ .brand .f{
+    background:url(https://i0.wp.com/demo4.drfuri.com/razzi12/wp-content/uploads/sites/32/2021/12/Vector-5.png?fit=112%2C28&ssl=1);
+    background-size:100% 100%;
+ }
+
+ .view{
+    height:250px;
+    width:100%;
+   /*background:red;*/
+}
+
+ 
+.view .view-1{
+    height:200px;
+    width:100%;
+    /*background:coral;*/
+    display:flex;
+    margin:20px;
+ }
+  
+ .view-1 .views{
+    height:100px;
+    width:300px;
+    background:white;
+    box-shadow:0 0 20px gray;
+    margin-right:120px;
+ }
+ .view .view-1 .views:hover{
+    transform:scale(1.2);
+ }
+ .view .a{
+    background:url(https://i0.wp.com/demo4.drfuri.com/razzi12/wp-content/uploads/sites/32/2021/12/Vector-6.png?fit=114%2C27&ssl=1);
+    background-size:100% 100%;
+ }
+ .view .b{
+    background:url(https://i0.wp.com/demo4.drfuri.com/razzi12/wp-content/uploads/sites/32/2021/12/Vector-7.png?fit=83%2C50&ssl=1);
+    background-size:100% 100%;
+ }
+ .view .c{
+    background:url(https://i0.wp.com/demo4.drfuri.com/razzi12/wp-content/uploads/sites/32/2021/12/Vector-8.png?fit=103%2C28&ssl=1);
+    background-size:100% 100%;
+ }
+ .view .d{
+    background:url(https://i0.wp.com/demo4.drfuri.com/razzi12/wp-content/uploads/sites/32/2021/12/Vector-9.png?fit=104%2C44&ssl=1);
+    background-size:100% 100%;
+ }
+ .view .e{
+    background:url(https://i0.wp.com/demo4.drfuri.com/razzi12/wp-content/uploads/sites/32/2021/12/Vector-10.png?fit=125%2C22&ssl=1);
+    background-size:100% 100%;
+ }
+ .view .f{
+    background:url(https://i0.wp.com/demo4.drfuri.com/razzi12/wp-content/uploads/sites/32/2021/12/Vector-11.png?fit=112%2C20&ssl=1);
+    background-size:100% 100%;
+ }
+ .fotter{
+    height:250px;
+    width:100%;
+   /*background:red;*/
+}
+
+.fotter .fotter-1{
+    height:200px;
+    width:100%;
+    /*background:coral;*/
+    display:flex;
+    margin:20px;
+ }
+ .fotter-1 .fotters{
+    height:100px;
+    width:300px;
+    background:white;
+    box-shadow:0 0 20px gray;
+    margin-right:120px;
+ }
+ .fotter .fotter-1 .fotters:hover{
+    transform:scale(1.2);
+ }
+ .fotter .a{
+    background:url(https://i0.wp.com/demo4.drfuri.com/razzi12/wp-content/uploads/sites/32/2021/12/Vector-12.png?fit=99%2C17&ssl=1);
+    background-size:100% 100%;
+
+ }
+ .fotter .b{
+    background:url(https://i0.wp.com/demo4.drfuri.com/razzi12/wp-content/uploads/sites/32/2021/12/Vector-13.png?fit=98%2C26&ssl=1);
+    background-size:100% 100%;
+    
+ }
+ .fotter .c{
+    background:url(https://i0.wp.com/demo4.drfuri.com/razzi12/wp-content/uploads/sites/32/2021/12/Vector-14.png?fit=106%2C20&ssl=1);
+    background-size:100% 100%;
+ }
+ .fotter .d{
+    background:url(https://i0.wp.com/demo4.drfuri.com/razzi12/wp-content/uploads/sites/32/2021/12/Vector-15.png?fit=112%2C21&ssl=1);
+    background-size:100% 100%;
+ }
+ .fotter .e{
+    background:url(https://i0.wp.com/demo4.drfuri.com/razzi12/wp-content/uploads/sites/32/2021/12/Vector-16.png?fit=96%2C33&ssl=1);
+    background-size:100% 100%;
+ }
+ .fotter .f{
+    background:url(https://i0.wp.com/demo4.drfuri.com/razzi12/wp-content/uploads/sites/32/2021/12/Vector-17.png?fit=78%2C30&ssl=1);
+    background-size:100% 100%;
+ }*/
+ .mute h5{
+    font-size:15px;
+    text-decoration:underline;
+ }
+ .test{
+    height:300px;
+    width:100%;
+    background:white;
+   
+    position:relative;
+   
+ }
+ .test p{
+    text-align:center;
+    font-size:40px;
+    color:black;
+ }
+ .test span{
+     
+     font-size:30px;
+     text-align:center;
+     margin-left:250px;
+     color:gray;
+ }
+ .test h2{
+    margin-top:120px;
+    font-size:20px;
+   
+    color:black;
+    
+ }
+ .test h1{
+    position:absolute;
+    color:black;
+    font-size:20px;
+    top:0;
+    left:0;
+    margin:250px 1000px;
+    text-decoration:underline;
+ }
+.fotter-row{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    flex-wrap: wrap;
+    height:600px;
+    width:100%;
+    background:black;
+    position:relative;
+}
+.fotter-row h2{
+    color:white;
+}
+.fotter-row p{
+    color:gray;
+    margin:12px 0;
+}
+.fotter-row b{
+    color:white;
+    font-size:30px;
+}
+.fa-facebook-f{
+    
+    color:gray;
+}
+.fa-tumblr-square{
+    margin-left:20px;
+    color:gray;
+}
+.fa-google{
+    margin-left: 20px;
+    color:gray;
+}
+.fa-twitter{
+    margin-left: 20px;
+    color:gray;
+}
+.navigation ul li ul li{
+    display:none;
+}
+.imp{
+    background:red;
+    height:100px;
+    width:100%;
+}
+
+
+
+
+
+
+
+
+
+
+
